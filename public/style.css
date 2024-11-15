@@ -1,12 +1,109 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-  }
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(135deg, #2b5876, #4e4376); 
+  color: #fff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7); 
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid #ffd700; 
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Headings */
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #ffd700; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  background: #ffd700;
+  color: #4e4376;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #fff;
+  color: #4e4376;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-left: 4px solid #ffd700;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Links */
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 14px;
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+/* Music-Themed Elements */
+.note-icon {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffd700;
+  margin-right: 10px;
+}
